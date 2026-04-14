@@ -10,7 +10,44 @@ const slides = [
   // DÍA 1 — EL DÍA DEL FUEGO
   // ═══════════════════════════════════════════
 
-  // Slide 1
+  {
+    day: 1,
+    type: "day-opener",
+    timing: "8:00-8:15",
+    content: `
+    <div class="opener-eyebrow">Día 1 de 10 · WOW</div>
+    <h1 class="opener-title">El Día del Fuego</h1>
+    <p class="opener-theme">Vas a ver lo que es posible.</p>
+    <div class="opener-grid">
+      <div class="opener-block">
+        <h3>Lo que va a pasar</h3>
+        <p>Cero teoría. Un croquis feo se convierte en render en 10 minutos. Después lo haces con tu proyecto.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Lo que vas a crear</h3>
+        <p>3 renders de tu propio proyecto + tu manifiesto personal sobre la IA.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Términos clave</h3>
+        <div class="opener-tags">
+          <span class="opener-tag">IA</span>
+          <span class="opener-tag">prompt</span>
+          <span class="opener-tag">render</span>
+          <span class="opener-tag">modelo</span>
+        </div>
+      </div>
+      <div class="opener-block">
+        <h3>Herramientas</h3>
+        <div class="opener-tags tools">
+          <span class="opener-tag">Claude</span>
+          <span class="opener-tag">ChatGPT</span>
+          <span class="opener-tag">Kling</span>
+          <span class="opener-tag">Gamma</span>
+        </div>
+      </div>
+    </div>
+  `,
+  },
   {
     day: 1,
     type: "course-title",
@@ -302,8 +339,8 @@ const slides = [
     type: "concept",
     timing: "9:50-10:30",
     content: `
-    <p class="concept-text">¿La IA AMPLIFICÓ sus ideas o las hizo genéricas?</p>
-    <p class="concept-sub">La IA es un amplificador. Si le dan una idea débil, amplifica la debilidad. Si le dan una idea fuerte, amplifica la fuerza. Ustedes son el ingrediente crítico.</p>
+    <p class="concept-text">La IA es un amplificador.</p>
+    <p class="concept-sub">Idea débil → amplifica debilidad. Idea fuerte → amplifica fuerza. Tú eres el ingrediente crítico.</p>
   `,
   },
   // Slide 20
@@ -397,11 +434,65 @@ const slides = [
     content: `<p class="segment-badge">INSTRUCCIONES</p><ol class="num-list"><li>Describe tu proyecto en 2-3 oraciones</li><li>Genera 5+ imágenes (Bing Image Creator)</li><li>Guarda las mejores 3</li></ol><div class="warning-box" style="margin-top:16px;">Estas 3 imágenes son la SEMILLA de tu portafolio de Entrega</div>`,
   },
 
+  {
+    day: 1,
+    type: "exercise-final",
+    timing: "10:30-11:20",
+    content: `
+    <span class="exercise-badge">TU TURNO · 50 MIN</span>
+    <h2 class="exercise-title">Tu Portafolio del Futuro</h2>
+    <p class="exercise-goal">Al final tienes 3 renders de tu propio proyecto — la semilla de tu portafolio de Entrega.</p>
+    <ol class="exercise-steps">
+      <li>Elige un proyecto tuyo (actual o pasado) y descríbelo en 2-3 oraciones.</li>
+      <li>Genera al menos 5 imágenes con Bing Image Creator (gratis, desde el teléfono).</li>
+      <li>Guarda las 3 mejores y nómbralas.</li>
+    </ol>
+    <p class="exercise-deliverable"><strong>Entregable:</strong> 3 imágenes + 1 párrafo de concepto. Se suma al portafolio final.</p>
+  `,
+  },
+
   // ═══════════════════════════════════════════
   // DÍA 2 — LOS LLMs NO SON GOOGLE
   // ═══════════════════════════════════════════
 
-  // Slide 25 (was 26)
+  {
+    day: 2,
+    type: "day-opener",
+    timing: "8:00-8:15",
+    content: `
+    <div class="opener-eyebrow">Día 2 de 10 · ENTENDER</div>
+    <h1 class="opener-title">Los LLMs no son Google</h1>
+    <p class="opener-theme">Vas a entender cómo "piensa" la IA.</p>
+    <div class="opener-grid">
+      <div class="opener-block">
+        <h3>Lo que va a pasar</h3>
+        <p>Qué es un LLM, por qué alucina, y por qué esto no es googlear — es otra cosa.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Lo que vas a crear</h3>
+        <p>La misma pregunta en Google vs. Claude vs. ChatGPT. Vas a ver la diferencia brutal.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Términos clave</h3>
+        <div class="opener-tags">
+          <span class="opener-tag">LLM</span>
+          <span class="opener-tag">token</span>
+          <span class="opener-tag">contexto</span>
+          <span class="opener-tag">alucinación</span>
+          <span class="opener-tag">temperatura</span>
+        </div>
+      </div>
+      <div class="opener-block">
+        <h3>Herramientas</h3>
+        <div class="opener-tags tools">
+          <span class="opener-tag">Claude</span>
+          <span class="opener-tag">ChatGPT</span>
+          <span class="opener-tag">NotebookLM</span>
+        </div>
+      </div>
+    </div>
+  `,
+  },
   {
     day: 2,
     type: "title",
@@ -945,8 +1036,63 @@ const slides = [
   `,
   },
 
+  {
+    day: 2,
+    type: "exercise-final",
+    timing: "11:30-13:00",
+    content: `
+    <span class="exercise-badge">TU TURNO · 90 MIN</span>
+    <h2 class="exercise-title">El Arquitecto Interrogador</h2>
+    <p class="exercise-goal">Al final tienes un memo de factibilidad para convertir una maquiladora abandonada en centro cultural.</p>
+    <ol class="exercise-steps">
+      <li>Lee el brief. Anota en papel tu instinto inicial: preguntas + primeras ideas.</li>
+      <li>Interroga a Claude en 3 rondas: sitio y contexto → programa y diseño → factibilidad y riesgos. Empuja de vuelta.</li>
+      <li>Escribe un memo de 1 página: resumen + 3 oportunidades + 3 riesgos + 3 pasos siguientes.</li>
+    </ol>
+    <p class="exercise-deliverable"><strong>Entregable:</strong> Memo de factibilidad (PDF) + reflexión antes/después.</p>
+  `,
+  },
+
   // ═══════════════════════════════════════════
   // DÍA 3 — PROMPTING
+  // ═══════════════════════════════════════════
+
+  {
+    day: 3,
+    type: "day-opener",
+    timing: "8:00-8:15",
+    content: `
+    <div class="opener-eyebrow">Día 3 de 10 · COMUNICAR</div>
+    <h1 class="opener-title">Prompting</h1>
+    <p class="opener-theme">La habilidad que lo desbloquea todo.</p>
+    <div class="opener-grid">
+      <div class="opener-block">
+        <h3>Lo que va a pasar</h3>
+        <p>El prompt es diseño. Vas a aprender CO-STAR y cada herramienta de IA se vuelve 10× más útil.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Lo que vas a crear</h3>
+        <p>Tu biblioteca personal de prompts arquitectónicos probados. Un activo que te va a servir siempre.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Términos clave</h3>
+        <div class="opener-tags">
+          <span class="opener-tag">CO-STAR</span>
+          <span class="opener-tag">system prompt</span>
+          <span class="opener-tag">few-shot</span>
+          <span class="opener-tag">chain of thought</span>
+        </div>
+      </div>
+      <div class="opener-block">
+        <h3>Herramientas</h3>
+        <div class="opener-tags tools">
+          <span class="opener-tag">Claude</span>
+          <span class="opener-tag">ChatGPT</span>
+        </div>
+      </div>
+    </div>
+  `,
+  },
   // ═══════════════════════════════════════════
 
   // Slide 61 (was 66)
@@ -1406,10 +1552,64 @@ R: Tabla con m², lista de principios, constraints</div>
   `,
   },
 
+  {
+    day: 3,
+    type: "exercise-final",
+    timing: "11:30-13:00",
+    content: `
+    <span class="exercise-badge">TU TURNO · 90 MIN</span>
+    <h2 class="exercise-title">Tu Proyecto, Reimaginado</h2>
+    <p class="exercise-goal">Al final tienes un Project Intelligence Report sobre tu propio proyecto de taller.</p>
+    <ol class="exercise-steps">
+      <li>Llena tu Tarjeta de Identidad del Proyecto: nombre, tipo, sitio, concepto, reto.</li>
+      <li>Aplica los 4 templates a tu proyecto: Crítico · Consultor de Código · Comunicador · Explorador.</li>
+      <li>Compila un reporte de 1 página con los mejores insights y pásaselo a un compañero.</li>
+    </ol>
+    <p class="exercise-deliverable"><strong>Entregable:</strong> Project Identity Card + 4 screenshots + Project Intelligence Report.</p>
+  `,
+  },
+
   // ═══════════════════════════════════════════
   // DÍA 4 — GENERACIÓN DE IMÁGENES CON IA
   // ═══════════════════════════════════════════
 
+  {
+    day: 4,
+    type: "day-opener",
+    timing: "8:00-8:15",
+    content: `
+    <div class="opener-eyebrow">Día 4 de 10 · VER</div>
+    <h1 class="opener-title">Generación de Imágenes</h1>
+    <p class="opener-theme">De croquis a render en minutos.</p>
+    <div class="opener-grid">
+      <div class="opener-block">
+        <h3>Lo que va a pasar</h3>
+        <p>Tomas un croquis a mano y lo conviertes en render fotorrealista. Controlas materiales, luz y atmósfera.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Lo que vas a crear</h3>
+        <p>Serie de 5 renders con variaciones de estilo de tu propio proyecto.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Términos clave</h3>
+        <div class="opener-tags">
+          <span class="opener-tag">difusión</span>
+          <span class="opener-tag">img2img</span>
+          <span class="opener-tag">ControlNet</span>
+          <span class="opener-tag">style transfer</span>
+        </div>
+      </div>
+      <div class="opener-block">
+        <h3>Herramientas</h3>
+        <div class="opener-tags tools">
+          <span class="opener-tag">Krea.ai</span>
+          <span class="opener-tag">ChatGPT</span>
+          <span class="opener-tag">Bing Image Creator</span>
+        </div>
+      </div>
+    </div>
+  `,
+  },
   {
     day: 4,
     type: "title",
@@ -1567,10 +1767,64 @@ R: Tabla con m², lista de principios, constraints</div>
     content: `<h2 class="summary-header">Mañana</h2><p style="font-size:28px;color:var(--text);margin-bottom:20px;">Video con IA</p><div class="preview-terms"><span class="term-chip">Image-to-video</span><span class="term-chip">Motion Intensity</span><span class="term-chip">Promenade Architecturale</span></div><p style="margin-top:24px;font-size:20px;color:var(--text-muted);">Traigan su mejor render — lo vamos a animar</p>`,
   },
 
+  {
+    day: 4,
+    type: "exercise-final",
+    timing: "11:30-13:00",
+    content: `
+    <span class="exercise-badge">TU TURNO · 90 MIN</span>
+    <h2 class="exercise-title">El Render Imposible</h2>
+    <p class="exercise-goal">Al final tienes un Project Atmosphere Board con 4 vistas profesionales de tu proyecto.</p>
+    <ol class="exercise-steps">
+      <li>Escribe un Visual Brief: espacio clave, hora del día, tono emocional, quién está ahí.</li>
+      <li>Genera 4 vistas: Hero shot · Interior · Contexto · Detalle. 3 opciones por vista, itera el prompt.</li>
+      <li>Compila el board con las 4 vistas + nombre del proyecto + prompts que las generaron.</li>
+    </ol>
+    <p class="exercise-deliverable"><strong>Entregable:</strong> Project Atmosphere Board (4 vistas + prompts + concepto).</p>
+  `,
+  },
+
   // ═══════════════════════════════════════════
   // DÍA 5 — VIDEO CON IA
   // ═══════════════════════════════════════════
 
+  {
+    day: 5,
+    type: "day-opener",
+    timing: "8:00-8:15",
+    content: `
+    <div class="opener-eyebrow">Día 5 de 10 · MOVER</div>
+    <h1 class="opener-title">Video con IA</h1>
+    <p class="opener-theme">Tus renders cobran vida.</p>
+    <div class="opener-grid">
+      <div class="opener-block">
+        <h3>Lo que va a pasar</h3>
+        <p>Tomas los renders de ayer y los conviertes en walkthroughs cinematográficos. El video vende proyectos.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Lo que vas a crear</h3>
+        <p>Video walkthrough de 30-60 segundos de tu proyecto arquitectónico.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Términos clave</h3>
+        <div class="opener-tags">
+          <span class="opener-tag">img2vid</span>
+          <span class="opener-tag">camera motion</span>
+          <span class="opener-tag">keyframe</span>
+          <span class="opener-tag">storyboard</span>
+        </div>
+      </div>
+      <div class="opener-block">
+        <h3>Herramientas</h3>
+        <div class="opener-tags tools">
+          <span class="opener-tag">Kling</span>
+          <span class="opener-tag">Veo</span>
+          <span class="opener-tag">CapCut</span>
+        </div>
+      </div>
+    </div>
+  `,
+  },
   {
     day: 5,
     type: "title",
@@ -1722,10 +1976,64 @@ R: Tabla con m², lista de principios, constraints</div>
     content: `<h2 class="summary-header">Mañana</h2><p style="font-size:28px;color:var(--text);margin-bottom:20px;">Presentaciones con IA</p><p style="font-size:22px;color:var(--text-dim);">Gamma + IA como writing partner. Traigan TODO su trabajo de la semana.</p>`,
   },
 
+  {
+    day: 5,
+    type: "exercise-final",
+    timing: "11:30-13:00",
+    content: `
+    <span class="exercise-badge">TU TURNO · 90 MIN</span>
+    <h2 class="exercise-title">El Recorrido Virtual</h2>
+    <p class="exercise-goal">Al final tienes un video narrativo de 30-60 segundos recorriendo tu proyecto.</p>
+    <ol class="exercise-steps">
+      <li>Escribe 5 oraciones — una por acto: Acercamiento, Umbral, Descubrimiento, Experiencia, Salida.</li>
+      <li>Pule el script con Claude. Genera o reutiliza 5 momentos visuales (uno por acto).</li>
+      <li>Ensambla en CapCut o Canva Video: transiciones, música libre, texto/voiceover.</li>
+    </ol>
+    <p class="exercise-deliverable"><strong>Entregable:</strong> Video narrativo de 30-60 segundos.</p>
+  `,
+  },
+
   // ═══════════════════════════════════════════
   // DÍA 6 — PRESENTACIONES CON IA
   // ═══════════════════════════════════════════
 
+  {
+    day: 6,
+    type: "day-opener",
+    timing: "8:00-8:15",
+    content: `
+    <div class="opener-eyebrow">Día 6 de 10 · PRESENTAR</div>
+    <h1 class="opener-title">Presentaciones</h1>
+    <p class="opener-theme">Vas a aprender a ganar.</p>
+    <div class="opener-grid">
+      <div class="opener-block">
+        <h3>Lo que va a pasar</h3>
+        <p>Un buen proyecto mal presentado pierde. Vas a presentar como profesional: storytelling, jerarquía y pitch.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Lo que vas a crear</h3>
+        <p>Presentación profesional de 10 slides para un cliente ficticio.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Términos clave</h3>
+        <div class="opener-tags">
+          <span class="opener-tag">storytelling</span>
+          <span class="opener-tag">jerarquía visual</span>
+          <span class="opener-tag">pitch</span>
+          <span class="opener-tag">narrative arc</span>
+        </div>
+      </div>
+      <div class="opener-block">
+        <h3>Herramientas</h3>
+        <div class="opener-tags tools">
+          <span class="opener-tag">Gamma</span>
+          <span class="opener-tag">Claude</span>
+          <span class="opener-tag">NotebookLM</span>
+        </div>
+      </div>
+    </div>
+  `,
+  },
   {
     day: 6,
     type: "title",
@@ -1886,10 +2194,63 @@ Estructura: Hook > Contexto > Concepto > Diseño > Evidencia > Visión.</div></d
     content: `<h2 class="summary-header">Mañana</h2><p style="font-size:28px;color:var(--text);margin-bottom:20px;">Colaboración Humano-IA — el juicio crítico</p><p style="font-size:22px;color:var(--text-dim);">¿Cuándo confiar en la IA y cuándo no?</p>`,
   },
 
+  {
+    day: 6,
+    type: "exercise-final",
+    timing: "11:30-13:00",
+    content: `
+    <span class="exercise-badge">TU TURNO · 90 MIN</span>
+    <h2 class="exercise-title">El Pitch del Proyecto</h2>
+    <p class="exercise-goal">Al final tienes la primera versión de tu Entrega: una presentación de 10-15 slides con speaker notes.</p>
+    <ol class="exercise-steps">
+      <li>Outline con Claude: Hook → Contexto → Concepto → Diseño → Evidencia → Visión.</li>
+      <li>Construye 10-15 slides integrando análisis, reporte, atmosphere board y video clip de días previos.</li>
+      <li>Presenta 3 min a un compañero. Recibe feedback. Cambia al menos 1 slide.</li>
+    </ol>
+    <p class="exercise-deliverable"><strong>Entregable:</strong> Presentación de 10-15 slides con speaker notes.</p>
+  `,
+  },
+
   // ═══════════════════════════════════════════
   // DÍA 7 — COLABORACIÓN HUMANO-IA
   // ═══════════════════════════════════════════
 
+  {
+    day: 7,
+    type: "day-opener",
+    timing: "8:00-8:15",
+    content: `
+    <div class="opener-eyebrow">Día 7 de 10 · JUZGAR</div>
+    <h1 class="opener-title">Colaboración Humano-IA</h1>
+    <p class="opener-theme">Tu criterio es lo que la IA no tiene.</p>
+    <div class="opener-grid">
+      <div class="opener-block">
+        <h3>Lo que va a pasar</h3>
+        <p>La IA propone, tú decides. El valor del arquitecto no es generar — es juzgar, curar y decidir.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Lo que vas a crear</h3>
+        <p>Evaluación crítica de outputs de IA con criterio profesional + tu proceso de decisión documentado.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Términos clave</h3>
+        <div class="opener-tags">
+          <span class="opener-tag">human-in-the-loop</span>
+          <span class="opener-tag">bias</span>
+          <span class="opener-tag">verificación</span>
+          <span class="opener-tag">ética IA</span>
+        </div>
+      </div>
+      <div class="opener-block">
+        <h3>Herramientas</h3>
+        <div class="opener-tags tools">
+          <span class="opener-tag">Claude</span>
+          <span class="opener-tag">ChatGPT</span>
+        </div>
+      </div>
+    </div>
+  `,
+  },
   {
     day: 7,
     type: "title",
@@ -2017,10 +2378,63 @@ Estructura: Hook > Contexto > Concepto > Diseño > Evidencia > Visión.</div></d
     content: `<h2 class="summary-header">Mañana</h2><p style="font-size:28px;color:var(--text);margin-bottom:20px;">Vibe Coding — de usuario a creador</p><div class="preview-terms"><span class="term-chip">Terminal</span><span class="term-chip">CLI</span><span class="term-chip">Vibe Coding</span></div><p style="margin-top:24px;font-size:20px;color:var(--text-muted);">No necesitan saber programar. Solo describir.</p>`,
   },
 
+  {
+    day: 7,
+    type: "exercise-final",
+    timing: "11:30-13:00",
+    content: `
+    <span class="exercise-badge">TU TURNO · 90 MIN</span>
+    <h2 class="exercise-title">El Juicio del Diseño</h2>
+    <p class="exercise-goal">Al final tienes un Design Decision Document que defiende una decisión real de tu proyecto.</p>
+    <ol class="exercise-steps">
+      <li>Identifica una decisión no resuelta: material, estructura, organización, acceso o sustentabilidad.</li>
+      <li>Tres rondas con Claude: Generar 5 opciones → Evaluar contra criterios → Stress test como abogado del diablo.</li>
+      <li>Escribe 1 página: pregunta · matriz · opción elegida · justificación · riesgos.</li>
+    </ol>
+    <p class="exercise-deliverable"><strong>Entregable:</strong> Design Decision Document con matriz de evaluación.</p>
+  `,
+  },
+
   // ═══════════════════════════════════════════
   // DÍA 8 — VIBE CODING
   // ═══════════════════════════════════════════
 
+  {
+    day: 8,
+    type: "day-opener",
+    timing: "8:00-8:15",
+    content: `
+    <div class="opener-eyebrow">Día 8 de 10 · CONSTRUIR</div>
+    <h1 class="opener-title">Vibe Coding</h1>
+    <p class="opener-theme">Describes lo que quieres, la IA lo construye.</p>
+    <div class="opener-grid">
+      <div class="opener-block">
+        <h3>Lo que va a pasar</h3>
+        <p>No necesitas saber programar. Describes una herramienta en español y la ves aparecer, funcionando, en minutos.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Lo que vas a crear</h3>
+        <p>Tu propia app web funcional: calculadora de costos, generador de paletas, o herramienta para tu práctica.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Términos clave</h3>
+        <div class="opener-tags">
+          <span class="opener-tag">vibe coding</span>
+          <span class="opener-tag">no-code</span>
+          <span class="opener-tag">deploy</span>
+          <span class="opener-tag">iteración</span>
+        </div>
+      </div>
+      <div class="opener-block">
+        <h3>Herramientas</h3>
+        <div class="opener-tags tools">
+          <span class="opener-tag">v0.dev</span>
+          <span class="opener-tag">Bolt.new</span>
+        </div>
+      </div>
+    </div>
+  `,
+  },
   {
     day: 8,
     type: "title",
@@ -2175,10 +2589,62 @@ claude — Inicia Claude Code (tu asistente)</div></div>`,
     content: `<h2 class="summary-header">Mañana</h2><p style="font-size:28px;color:var(--text);margin-bottom:20px;">Claude Code — Poder Total</p><div class="preview-terms"><span class="term-chip">Agent</span><span class="term-chip">MCP</span><span class="term-chip">Deploy</span></div><p style="margin-top:24px;font-size:20px;color:var(--text-muted);">La misma conversación. Pero ahora puede construir CUALQUIER COSA.</p>`,
   },
 
+  {
+    day: 8,
+    type: "exercise-final",
+    timing: "11:30-13:00",
+    content: `
+    <span class="exercise-badge">TU TURNO · 90 MIN</span>
+    <h2 class="exercise-title">La App de tu Despacho</h2>
+    <p class="exercise-goal">Al final tienes una app web funcional que resuelve un problema real de workflow arquitectónico.</p>
+    <ol class="exercise-steps">
+      <li>Decide qué construir: una herramienta que te ahorre tiempo en tu práctica.</li>
+      <li>Escribe el brief con Claude: qué hace, quién la usa, features, input y output.</li>
+      <li>Constrúyela en Bolt.new o v0.dev: una feature a la vez, testea, itera, publica la URL.</li>
+    </ol>
+    <p class="exercise-deliverable"><strong>Entregable:</strong> Aplicación web multi-feature funcional (URL).</p>
+  `,
+  },
+
   // ═══════════════════════════════════════════
   // DÍA 9 — CLAUDE CODE: PODER TOTAL
   // ═══════════════════════════════════════════
 
+  {
+    day: 9,
+    type: "day-opener",
+    timing: "8:00-8:15",
+    content: `
+    <div class="opener-eyebrow">Día 9 de 10 · PODER</div>
+    <h1 class="opener-title">Claude Code</h1>
+    <p class="opener-theme">La terminal es tu canvas.</p>
+    <div class="opener-grid">
+      <div class="opener-block">
+        <h3>Lo que va a pasar</h3>
+        <p>Abres la terminal, escribes una instrucción, y ves tu portafolio web construirse. Lo publicas el mismo día.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Lo que vas a crear</h3>
+        <p>Tu portafolio web personal, construido con Claude Code y desplegado en internet.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Términos clave</h3>
+        <div class="opener-tags">
+          <span class="opener-tag">CLI</span>
+          <span class="opener-tag">terminal</span>
+          <span class="opener-tag">agentic coding</span>
+          <span class="opener-tag">deploy</span>
+        </div>
+      </div>
+      <div class="opener-block">
+        <h3>Herramientas</h3>
+        <div class="opener-tags tools">
+          <span class="opener-tag">Claude Code</span>
+        </div>
+      </div>
+    </div>
+  `,
+  },
   {
     day: 9,
     type: "title",
@@ -2334,10 +2800,61 @@ Que se vea profesional y moderno.</div></div>`,
     content: `<h2 class="summary-header">Mañana: LA ENTREGA</h2><p style="font-size:24px;color:var(--text);margin-bottom:20px;">Expo + Presentaciones + Premios + Convivio</p><ul class="bullet-list"><li>Laptop con presentación lista</li><li>Atmosphere Board (Día 4)</li><li>Teléfono con herramienta/sitio (Días 8-9)</li><li>QR code de portfolio site</li></ul>`,
   },
 
+  {
+    day: 9,
+    type: "exercise-final",
+    timing: "11:30-13:00",
+    content: `
+    <span class="exercise-badge">TU TURNO · 90 MIN</span>
+    <h2 class="exercise-title">Construye tu Arma Secreta</h2>
+    <p class="exercise-goal">Al final tienes un sitio o app desplegado en internet, construido con Claude Code.</p>
+    <ol class="exercise-steps">
+      <li>Escribe el brief para Claude Code: qué construir, para quién, qué debe hacer.</li>
+      <li>Construye con 3 checkpoints: primera versión (20') · UNA feature killer (40') · pulir UI (60').</li>
+      <li>Despliega con <code>npx vercel</code>. Comparte la URL en el chat.</li>
+    </ol>
+    <p class="exercise-deliverable"><strong>Entregable:</strong> Sitio web o aplicación deployada (URL pública).</p>
+  `,
+  },
+
   // ═══════════════════════════════════════════
   // DÍA 10 — LA ENTREGA
   // ═══════════════════════════════════════════
 
+  {
+    day: 10,
+    type: "day-opener",
+    timing: "8:00-8:15",
+    content: `
+    <div class="opener-eyebrow">Día 10 de 10 · ENTREGA</div>
+    <h1 class="opener-title">La Entrega</h1>
+    <p class="opener-theme">Todo converge.</p>
+    <div class="opener-grid">
+      <div class="opener-block">
+        <h3>Lo que va a pasar</h3>
+        <p>Presentas tu proyecto integrado frente a un jurado. Diez días de trabajo se convierten en tu pitch final.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Lo que vas a crear</h3>
+        <p>Presentación final integrada: portafolio + renders + video + herramienta + reflexión crítica.</p>
+      </div>
+      <div class="opener-block">
+        <h3>Términos clave</h3>
+        <div class="opener-tags">
+          <span class="opener-tag">portafolio</span>
+          <span class="opener-tag">pitch</span>
+          <span class="opener-tag">reflexión crítica</span>
+        </div>
+      </div>
+      <div class="opener-block">
+        <h3>Herramientas</h3>
+        <div class="opener-tags tools">
+          <span class="opener-tag">Todas</span>
+        </div>
+      </div>
+    </div>
+  `,
+  },
   {
     day: 10,
     type: "title",
@@ -2428,6 +2945,22 @@ Que se vea profesional y moderno.</div></div>`,
     timing: "12:15-1:00",
     content: `<div class="transition-text">Convivio</div><div class="transition-sub">Comida. Música. Fotos.<br>Intercambien QR codes de portfolios.<br>Google Drive compartido: suban TODO.</div>`,
   },
+  {
+    day: 10,
+    type: "exercise-final",
+    timing: "9:15-10:45",
+    content: `
+    <span class="exercise-badge">TU TURNO · 3 MIN + Q&A</span>
+    <h2 class="exercise-title">El Pitch Final</h2>
+    <p class="exercise-goal">Presentas tu proyecto integrado frente al jurado. Tres minutos. Timer estricto.</p>
+    <ol class="exercise-steps">
+      <li>Hook (15 seg) + Proyecto (60 seg): concepto, decisiones clave, atmósfera.</li>
+      <li>Journey de IA (60 seg): qué herramientas usaste, qué funcionó, qué rechazaste.</li>
+      <li>Artefacto (30 seg) + Reflexión (15 seg): demo + una oración sobre cómo cambia tu práctica.</li>
+    </ol>
+    <p class="exercise-deliverable"><strong>Entregable:</strong> Pitch de 3 minutos + portafolio completo vivo en internet.</p>
+  `,
+  },
 ]; // End of slides array
 
 // ── Slide Rendering Engine ──────────────────
@@ -2456,6 +2989,8 @@ function getSlideTypeClass(type) {
     agenda: "slide-agenda",
     retrieval: "slide-retrieval",
     summary: "slide-summary",
+    "day-opener": "slide-day-opener",
+    "exercise-final": "slide-exercise-final",
   };
   return map[type] || "slide-concept";
 }
@@ -2708,3 +3243,13 @@ document.addEventListener("mousemove", (e) => {
 // ── Initialize ──────────────────────────────
 renderSlides();
 updateUI();
+
+// Hash routing: #day-N jumps to day N on load and on hash change
+function handleHashRoute() {
+  const match = /^#day-(\d+)$/.exec(window.location.hash || "");
+  if (!match) return;
+  const day = parseInt(match[1], 10);
+  if (day >= 1 && day <= 10) goToDay(day);
+}
+handleHashRoute();
+window.addEventListener("hashchange", handleHashRoute);
