@@ -1,0 +1,2173 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      IA para Arquitectos — De Cero a Claude Code en 10 Dias | Isthmus Norte
+    </title>
+    <meta
+      name="description"
+      content="En 10 dias vas a pasar de no saber que es un prompt a construir tus propias herramientas. Curso intensivo en Isthmus Norte, Chihuahua. Todas las herramientas son gratuitas."
+    />
+    <meta name="theme-color" content="#1a1614" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo">
+          <span class="nav-logo-mark">IN</span>
+          <span class="nav-logo-text">Isthmus Norte</span>
+        </a>
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#filosofia">Filosofia</a></li>
+          <li><a href="#programa">Programa</a></li>
+          <li><a href="#entregables">Lo que Creas</a></li>
+          <li><a href="#herramientas">Herramientas</a></li>
+          <li><a href="#recursos">Recursos</a></li>
+          <li><a href="#glosario">Glosario</a></li>
+          <li><a href="#evaluacion">Evaluacion</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero-grid-bg" aria-hidden="true">
+        <div class="grid-pattern"></div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-institution">Isthmus Norte &middot; Chihuahua</p>
+        <h1 class="hero-title">
+          <span class="hero-title-main"
+            >En 10 dias, vas a transformar tu carrera.</span
+          >
+          <span class="hero-title-sub"
+            >De no saber que es un prompt a construir tus propias
+            herramientas.</span
+          >
+        </h1>
+        <p class="hero-objective">
+          <span class="hero-objective-label">Objetivo del curso</span>Diez dias
+          para aprender, comprender y dominar la inteligencia artificial como
+          herramienta de trabajo intelectual y proyectual.
+        </p>
+        <p class="hero-tagline">
+          La IA no te va a reemplazar. Te va a amplificar.
+        </p>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat-number">50</span>
+            <span class="hero-stat-label">horas</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-number">10</span>
+            <span class="hero-stat-label">dias</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-number">$0</span>
+            <span class="hero-stat-label">en herramientas</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-number">47</span>
+            <span class="hero-stat-label">terminos que vas a dominar</span>
+          </div>
+        </div>
+        <a href="#programa" class="hero-cta">
+          Descubre lo que vas a crear
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            aria-hidden="true"
+          >
+            <path
+              d="M10 3L10 17M10 17L16 11M10 17L4 11"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- Philosophy -->
+    <section class="section" id="filosofia">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Filosofia</span>
+          <h2 class="section-title">
+            No vas a aprender a usar herramientas.<br /><em
+              >Vas a transformar como piensas, disenas y presentas.</em
+            >
+          </h2>
+        </div>
+        <div class="philosophy-grid">
+          <div class="philosophy-card">
+            <div class="philosophy-number">01</div>
+            <h3 class="philosophy-heading">Mentalidad</h3>
+            <p class="philosophy-text">
+              Vas a cambiar tu relacion con la tecnologia. La IA no viene a
+              quitarte el trabajo — viene a hacer que lo que ya sabes hacer sea
+              10 veces mas poderoso.
+            </p>
+          </div>
+          <div class="philosophy-card">
+            <div class="philosophy-number">02</div>
+            <h3 class="philosophy-heading">Habilidades</h3>
+            <p class="philosophy-text">
+              Vas a dominar prompting, generacion visual, video, presentaciones
+              y codigo. Todo con herramientas gratuitas. Sin gastar un peso.
+            </p>
+          </div>
+          <div class="philosophy-card">
+            <div class="philosophy-number">03</div>
+            <h3 class="philosophy-heading">Creacion</h3>
+            <p class="philosophy-text">
+              Cada dia terminas con algo real: un render, un video, una
+              presentacion, un sitio web. No es teoria — es tu portafolio
+              creciendo.
+            </p>
+          </div>
+        </div>
+        <div class="philosophy-transformation">
+          <div class="transformation-from">
+            <span class="transformation-label">Entras como</span>
+            <p>Alguien que <strong>usa</strong> ChatGPT para tareas</p>
+          </div>
+          <div class="transformation-arrow" aria-hidden="true">
+            <svg width="48" height="24" viewBox="0 0 48 24" fill="none">
+              <path
+                d="M0 12H44M44 12L34 4M44 12L34 20"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="transformation-to">
+            <span class="transformation-label">Sales como</span>
+            <p>Alguien que <strong>CREA</strong> con IA</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Requirements -->
+    <section class="section section--dark" id="requisitos">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Que Necesitas</span>
+          <h2 class="section-title">Solo tres cosas. En serio.</h2>
+        </div>
+        <div class="requirements">
+          <div class="requirement-main">
+            <p>
+              No necesitas saber programar. No necesitas experiencia con IA. No
+              necesitas gastar dinero. Si sabes disenar,
+              <strong>ya tienes el 90% de lo que necesitas.</strong>
+            </p>
+          </div>
+          <div class="requirement-items">
+            <div class="requirement-item">
+              <div class="requirement-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <rect
+                    x="3"
+                    y="3"
+                    width="18"
+                    height="14"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M7 21h10"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                  <path d="M12 17v4" stroke="currentColor" stroke-width="1.5" />
+                </svg>
+              </div>
+              <div>
+                <h4>Tu laptop o tu telefono</h4>
+                <p>
+                  Cualquier dispositivo con navegador web funciona. No necesitas
+                  una computadora potente.
+                </p>
+              </div>
+            </div>
+            <div class="requirement-item">
+              <div class="requirement-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="9"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M12 3c-3 4-3 14 0 18M12 3c3 4 3 14 0 18M3 12h18"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h4>Internet</h4>
+                <p>
+                  Todo corre en la nube. Nada que instalar, nada que descargar.
+                </p>
+              </div>
+            </div>
+            <div class="requirement-item">
+              <div class="requirement-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 2L15 9h7l-5.5 4 2 7L12 17l-6.5 5 2-7L2 9h7z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h4>Ganas de aprender</h4>
+                <p>
+                  La curiosidad es tu unico prerequisito. Lo demas te lo
+                  ensenamos nosotros.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Curriculum -->
+    <section class="section" id="programa">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Programa</span>
+          <h2 class="section-title">10 Dias. 10 Niveles.</h2>
+          <p class="section-subtitle">
+            Cada dia produces algo real. Cada dia subes de nivel. Al final,
+            tienes un portafolio completo.
+          </p>
+        </div>
+        <div class="days-grid">
+          <div class="day-card" data-day="1">
+            <div class="day-card-header">
+              <span class="day-number">Dia 1</span>
+              <span class="day-word">WOW</span>
+            </div>
+            <h3 class="day-name">El Dia del Fuego</h3>
+            <p class="day-theme">Vas a ver lo que es posible</p>
+            <div class="day-details">
+              <div class="day-detail-section">
+                <h4>Lo que va a pasar</h4>
+                <p>
+                  Cero teoria. Vas a ver como un croquis feo se convierte en un
+                  render fotorrealista en 10 minutos. Y despues, lo vas a hacer
+                  con TU proyecto. Vas a salir diciendo "esto es real."
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Lo que vas a crear</h4>
+                <p>
+                  3 renders de tu propio proyecto + tu manifiesto personal sobre
+                  la IA
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Terminos clave</h4>
+                <div class="day-tags">
+                  <span class="day-tag">IA</span>
+                  <span class="day-tag">prompt</span>
+                  <span class="day-tag">render</span>
+                  <span class="day-tag">modelo</span>
+                </div>
+              </div>
+              <div class="day-detail-section">
+                <h4>Herramientas</h4>
+                <div class="day-tags">
+                  <span class="day-tag tool-tag">Claude</span>
+                  <span class="day-tag tool-tag">ChatGPT</span>
+                  <span class="day-tag tool-tag">Kling</span>
+                  <span class="day-tag tool-tag">Gamma</span>
+                </div>
+              </div>
+            </div>
+            <button
+              class="day-toggle"
+              aria-expanded="false"
+              aria-label="Ver detalles del Dia 1"
+            >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M5 8L10 13L15 8"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="day-card" data-day="2">
+            <div class="day-card-header">
+              <span class="day-number">Dia 2</span>
+              <span class="day-word">ENTENDER</span>
+            </div>
+            <h3 class="day-name">Los LLMs No Son Google</h3>
+            <p class="day-theme">Vas a entender como "piensa" la IA</p>
+            <div class="day-details">
+              <div class="day-detail-section">
+                <h4>Lo que va a pasar</h4>
+                <p>
+                  Vas a entender que es un LLM, por que "alucina", y por que
+                  cambia absolutamente todo tu flujo de trabajo. Esto no es
+                  googlear — es otra cosa.
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Lo que vas a crear</h4>
+                <p>
+                  Analisis comparativo: la misma pregunta en Google vs. Claude
+                  vs. ChatGPT — y vas a ver la diferencia brutal
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Terminos clave</h4>
+                <div class="day-tags">
+                  <span class="day-tag">LLM</span>
+                  <span class="day-tag">token</span>
+                  <span class="day-tag">contexto</span>
+                  <span class="day-tag">alucinacion</span>
+                  <span class="day-tag">temperatura</span>
+                </div>
+              </div>
+              <div class="day-detail-section">
+                <h4>Herramientas</h4>
+                <div class="day-tags">
+                  <span class="day-tag tool-tag">Claude</span>
+                  <span class="day-tag tool-tag">ChatGPT</span>
+                  <span class="day-tag tool-tag">NotebookLM</span>
+                </div>
+              </div>
+            </div>
+            <button
+              class="day-toggle"
+              aria-expanded="false"
+              aria-label="Ver detalles del Dia 2"
+            >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M5 8L10 13L15 8"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="day-card" data-day="3">
+            <div class="day-card-header">
+              <span class="day-number">Dia 3</span>
+              <span class="day-word">COMUNICAR</span>
+            </div>
+            <h3 class="day-name">Prompting</h3>
+            <p class="day-theme">La habilidad que lo desbloquea todo</p>
+            <div class="day-details">
+              <div class="day-detail-section">
+                <h4>Lo que va a pasar</h4>
+                <p>
+                  El prompt es diseno. Vas a aprender a comunicar tu intencion
+                  con precision usando el framework CO-STAR. Cuando domines
+                  esto, cada herramienta de IA se vuelve 10 veces mas util.
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Lo que vas a crear</h4>
+                <p>
+                  Tu biblioteca personal de prompts arquitectonicos probados —
+                  un activo que te va a servir toda la carrera
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Terminos clave</h4>
+                <div class="day-tags">
+                  <span class="day-tag">CO-STAR</span>
+                  <span class="day-tag">system prompt</span>
+                  <span class="day-tag">few-shot</span>
+                  <span class="day-tag">chain of thought</span>
+                </div>
+              </div>
+              <div class="day-detail-section">
+                <h4>Herramientas</h4>
+                <div class="day-tags">
+                  <span class="day-tag tool-tag">Claude</span>
+                  <span class="day-tag tool-tag">ChatGPT</span>
+                </div>
+              </div>
+            </div>
+            <button
+              class="day-toggle"
+              aria-expanded="false"
+              aria-label="Ver detalles del Dia 3"
+            >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M5 8L10 13L15 8"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="day-card" data-day="4">
+            <div class="day-card-header">
+              <span class="day-number">Dia 4</span>
+              <span class="day-word">VER</span>
+            </div>
+            <h3 class="day-name">Generacion de Imagenes</h3>
+            <p class="day-theme">De croquis a render en minutos</p>
+            <div class="day-details">
+              <div class="day-detail-section">
+                <h4>Lo que va a pasar</h4>
+                <p>
+                  Vas a tomar un croquis a mano y convertirlo en un render
+                  fotorrealista. Vas a controlar materiales, iluminacion, estilo
+                  y atmosfera. Y vas a hacerlo con herramientas 100% gratis.
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Lo que vas a crear</h4>
+                <p>
+                  Serie de 5 renders con variaciones de estilo de tu propio
+                  proyecto
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Terminos clave</h4>
+                <div class="day-tags">
+                  <span class="day-tag">difusion</span>
+                  <span class="day-tag">img2img</span>
+                  <span class="day-tag">ControlNet</span>
+                  <span class="day-tag">style transfer</span>
+                </div>
+              </div>
+              <div class="day-detail-section">
+                <h4>Herramientas</h4>
+                <div class="day-tags">
+                  <span class="day-tag tool-tag">Krea.ai</span>
+                  <span class="day-tag tool-tag">ChatGPT</span>
+                  <span class="day-tag tool-tag">Bing Image Creator</span>
+                </div>
+              </div>
+            </div>
+            <button
+              class="day-toggle"
+              aria-expanded="false"
+              aria-label="Ver detalles del Dia 4"
+            >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M5 8L10 13L15 8"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="day-card" data-day="5">
+            <div class="day-card-header">
+              <span class="day-number">Dia 5</span>
+              <span class="day-word">MOVER</span>
+            </div>
+            <h3 class="day-name">Video con IA</h3>
+            <p class="day-theme">Tus renders cobran vida</p>
+            <div class="day-details">
+              <div class="day-detail-section">
+                <h4>Lo que va a pasar</h4>
+                <p>
+                  Vas a tomar los renders que creaste ayer y convertirlos en
+                  walkthroughs cinematograficos. El video vende proyectos — y tu
+                  vas a saber hacerlo.
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Lo que vas a crear</h4>
+                <p>
+                  Video walkthrough de 30-60 segundos de tu proyecto
+                  arquitectonico
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Terminos clave</h4>
+                <div class="day-tags">
+                  <span class="day-tag">img2vid</span>
+                  <span class="day-tag">camera motion</span>
+                  <span class="day-tag">keyframe</span>
+                  <span class="day-tag">storyboard</span>
+                </div>
+              </div>
+              <div class="day-detail-section">
+                <h4>Herramientas</h4>
+                <div class="day-tags">
+                  <span class="day-tag tool-tag">Kling</span>
+                  <span class="day-tag tool-tag">Veo</span>
+                  <span class="day-tag tool-tag">CapCut</span>
+                </div>
+              </div>
+            </div>
+            <button
+              class="day-toggle"
+              aria-expanded="false"
+              aria-label="Ver detalles del Dia 5"
+            >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M5 8L10 13L15 8"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="day-card" data-day="6">
+            <div class="day-card-header">
+              <span class="day-number">Dia 6</span>
+              <span class="day-word">PRESENTAR</span>
+            </div>
+            <h3 class="day-name">Presentaciones</h3>
+            <p class="day-theme">Vas a aprender a ganar</p>
+            <div class="day-details">
+              <div class="day-detail-section">
+                <h4>Lo que va a pasar</h4>
+                <p>
+                  Un buen proyecto con mala presentacion pierde contra un
+                  proyecto mediocre bien presentado. Vas a aprender a presentar
+                  como profesional: storytelling, jerarquia visual y pitch.
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Lo que vas a crear</h4>
+                <p>
+                  Presentacion profesional de 10 slides para un cliente ficticio
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Terminos clave</h4>
+                <div class="day-tags">
+                  <span class="day-tag">storytelling</span>
+                  <span class="day-tag">jerarquia visual</span>
+                  <span class="day-tag">pitch</span>
+                  <span class="day-tag">narrative arc</span>
+                </div>
+              </div>
+              <div class="day-detail-section">
+                <h4>Herramientas</h4>
+                <div class="day-tags">
+                  <span class="day-tag tool-tag">Gamma</span>
+                  <span class="day-tag tool-tag">Claude</span>
+                  <span class="day-tag tool-tag">NotebookLM</span>
+                </div>
+              </div>
+            </div>
+            <button
+              class="day-toggle"
+              aria-expanded="false"
+              aria-label="Ver detalles del Dia 6"
+            >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M5 8L10 13L15 8"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="day-card" data-day="7">
+            <div class="day-card-header">
+              <span class="day-number">Dia 7</span>
+              <span class="day-word">JUZGAR</span>
+            </div>
+            <h3 class="day-name">Colaboracion Humano-IA</h3>
+            <p class="day-theme">Tu juicio es tu superpoder</p>
+            <div class="day-details">
+              <div class="day-detail-section">
+                <h4>Lo que va a pasar</h4>
+                <p>
+                  La IA propone, tu decides. Vas a aprender que el valor del
+                  arquitecto no es generar — es juzgar, curar y decidir. Tu
+                  criterio profesional es lo que la IA no tiene.
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Lo que vas a crear</h4>
+                <p>
+                  Analisis critico: evaluar outputs de IA con criterio
+                  profesional y documentar tu proceso de decision
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Terminos clave</h4>
+                <div class="day-tags">
+                  <span class="day-tag">human-in-the-loop</span>
+                  <span class="day-tag">bias</span>
+                  <span class="day-tag">verificacion</span>
+                  <span class="day-tag">etica IA</span>
+                </div>
+              </div>
+              <div class="day-detail-section">
+                <h4>Herramientas</h4>
+                <div class="day-tags">
+                  <span class="day-tag tool-tag">Claude</span>
+                  <span class="day-tag tool-tag">ChatGPT</span>
+                </div>
+              </div>
+            </div>
+            <button
+              class="day-toggle"
+              aria-expanded="false"
+              aria-label="Ver detalles del Dia 7"
+            >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M5 8L10 13L15 8"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="day-card" data-day="8">
+            <div class="day-card-header">
+              <span class="day-number">Dia 8</span>
+              <span class="day-word">CONSTRUIR</span>
+            </div>
+            <h3 class="day-name">Vibe Coding</h3>
+            <p class="day-theme">
+              Describes lo que quieres, la IA lo construye
+            </p>
+            <div class="day-details">
+              <div class="day-detail-section">
+                <h4>Lo que va a pasar</h4>
+                <p>
+                  No necesitas saber programar. Solo necesitas saber pedir. Vas
+                  a describir una herramienta en espanol y verla aparecer en tu
+                  pantalla, funcionando, en minutos. Y la vas a publicar en
+                  internet.
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Lo que vas a crear</h4>
+                <p>
+                  Tu propia app web funcional: una calculadora de costos, un
+                  generador de paletas o una herramienta para tu practica
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Terminos clave</h4>
+                <div class="day-tags">
+                  <span class="day-tag">vibe coding</span>
+                  <span class="day-tag">no-code</span>
+                  <span class="day-tag">deploy</span>
+                  <span class="day-tag">iteracion</span>
+                </div>
+              </div>
+              <div class="day-detail-section">
+                <h4>Herramientas</h4>
+                <div class="day-tags">
+                  <span class="day-tag tool-tag">v0.dev</span>
+                  <span class="day-tag tool-tag">Bolt.new</span>
+                </div>
+              </div>
+            </div>
+            <button
+              class="day-toggle"
+              aria-expanded="false"
+              aria-label="Ver detalles del Dia 8"
+            >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M5 8L10 13L15 8"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="day-card" data-day="9">
+            <div class="day-card-header">
+              <span class="day-number">Dia 9</span>
+              <span class="day-word">PODER</span>
+            </div>
+            <h3 class="day-name">Claude Code</h3>
+            <p class="day-theme">Poder total en tus manos</p>
+            <div class="day-details">
+              <div class="day-detail-section">
+                <h4>Lo que va a pasar</h4>
+                <p>
+                  La terminal es tu canvas. Vas a abrir una pantalla negra,
+                  escribir una instruccion, y ver como se construye tu
+                  portafolio web completo frente a tus ojos. Y lo vas a publicar
+                  en internet ese mismo dia.
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Lo que vas a crear</h4>
+                <p>
+                  Tu portafolio web personal, desplegado en internet, construido
+                  con Claude Code
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Terminos clave</h4>
+                <div class="day-tags">
+                  <span class="day-tag">CLI</span>
+                  <span class="day-tag">terminal</span>
+                  <span class="day-tag">agentic coding</span>
+                  <span class="day-tag">deploy</span>
+                </div>
+              </div>
+              <div class="day-detail-section">
+                <h4>Herramientas</h4>
+                <div class="day-tags">
+                  <span class="day-tag tool-tag">Claude Code</span>
+                </div>
+              </div>
+            </div>
+            <button
+              class="day-toggle"
+              aria-expanded="false"
+              aria-label="Ver detalles del Dia 9"
+            >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M5 8L10 13L15 8"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="day-card" data-day="10">
+            <div class="day-card-header">
+              <span class="day-number">Dia 10</span>
+              <span class="day-word">ENTREGA</span>
+            </div>
+            <h3 class="day-name">La Entrega</h3>
+            <p class="day-theme">Todo converge</p>
+            <div class="day-details">
+              <div class="day-detail-section">
+                <h4>Lo que va a pasar</h4>
+                <p>
+                  Vas a presentar tu proyecto integrado frente a un jurado. Todo
+                  lo que creaste en 10 dias — renders, video, presentacion,
+                  herramienta, portafolio — se convierte en tu pitch final. Tu
+                  portafolio queda vivo en internet.
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Lo que vas a crear</h4>
+                <p>
+                  Presentacion final integrada: portafolio + renders + video +
+                  herramienta + reflexion critica
+                </p>
+              </div>
+              <div class="day-detail-section">
+                <h4>Terminos clave</h4>
+                <div class="day-tags">
+                  <span class="day-tag">portafolio</span>
+                  <span class="day-tag">pitch</span>
+                  <span class="day-tag">reflexion critica</span>
+                </div>
+              </div>
+              <div class="day-detail-section">
+                <h4>Herramientas</h4>
+                <div class="day-tags">
+                  <span class="day-tag tool-tag">Todas</span>
+                </div>
+              </div>
+            </div>
+            <button
+              class="day-toggle"
+              aria-expanded="false"
+              aria-label="Ver detalles del Dia 10"
+            >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M5 8L10 13L15 8"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What You'll Build -->
+    <section class="section section--dark" id="entregables">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Tu Portafolio</span>
+          <h2 class="section-title">Esto es lo que VAS a crear en 10 dias:</h2>
+          <p class="section-subtitle">
+            Cada proyecto es real, publicable y tuyo para siempre. No es tarea —
+            es tu portafolio profesional.
+          </p>
+        </div>
+        <div class="deliverables-grid">
+          <div class="deliverable-card">
+            <div class="deliverable-visual">
+              <div class="deliverable-placeholder">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                  <rect
+                    x="4"
+                    y="8"
+                    width="40"
+                    height="32"
+                    rx="4"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M4 16h40M12 24h8M12 30h16"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3>Renders Arquitectonicos</h3>
+            <p>
+              Vas a tomar un croquis a mano y convertirlo en visualizaciones
+              fotorrealistas. Control total de materiales, luz y estilo.
+            </p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-visual">
+              <div class="deliverable-placeholder">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                  <polygon
+                    points="18,12 36,24 18,36"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    fill="none"
+                  />
+                  <rect
+                    x="4"
+                    y="8"
+                    width="40"
+                    height="32"
+                    rx="4"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3>Video Walkthroughs</h3>
+            <p>
+              Tus renders van a cobrar vida como recorridos cinematograficos. De
+              imagen estatica a experiencia inmersiva.
+            </p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-visual">
+              <div class="deliverable-placeholder">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                  <rect
+                    x="6"
+                    y="10"
+                    width="36"
+                    height="28"
+                    rx="3"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path d="M6 18h36" stroke="currentColor" stroke-width="1.5" />
+                  <circle cx="12" cy="14" r="2" fill="currentColor" />
+                </svg>
+              </div>
+            </div>
+            <h3>Presentaciones Profesionales</h3>
+            <p>
+              Vas a armar decks de cliente que comunican tu vision con claridad.
+              Storytelling que gana proyectos.
+            </p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-visual">
+              <div class="deliverable-placeholder">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                  <path
+                    d="M8 38V14l16-6 16 6v24"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M8 14l16 6 16-6"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M24 20v18"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3>Tu Propia Herramienta</h3>
+            <p>
+              Vas a construir una app web funcional — calculadora de costos,
+              generador de paletas, lo que necesites. Sin saber programar.
+            </p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-visual">
+              <div class="deliverable-placeholder">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                  <rect
+                    x="8"
+                    y="6"
+                    width="32"
+                    height="36"
+                    rx="4"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M16 16h16M16 22h12M16 28h14M16 34h8"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3>Biblioteca de Prompts</h3>
+            <p>
+              Tu coleccion personal de instrucciones probadas para cada
+              herramienta. Un activo profesional que crece contigo.
+            </p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-visual">
+              <div class="deliverable-placeholder">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                  <circle
+                    cx="24"
+                    cy="24"
+                    r="18"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M16 24l6 6 10-12"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3>Portafolio Web</h3>
+            <p>
+              Tu sitio personal desplegado en internet. Construido con Claude
+              Code, listo para compartir con empleadores y clientes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools -->
+    <section class="section" id="herramientas">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Herramientas</span>
+          <h2 class="section-title">
+            Todas son gratuitas. <em>No necesitas pagar nada.</em>
+          </h2>
+          <p class="section-subtitle">
+            Cada herramienta tiene un tier gratuito que alcanza para todo el
+            curso. Cero excusas, cero barreras.
+          </p>
+        </div>
+        <div class="tools-grid">
+          <div class="tool-card">
+            <div class="tool-icon">
+              <svg viewBox="0 0 40 40" fill="none">
+                <rect width="40" height="40" rx="8" fill="var(--terra)" />
+                <path
+                  d="M12 20h16M20 12v16"
+                  stroke="var(--bg)"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <span class="tool-name">Claude</span>
+            <span class="tool-category"
+              >Para analisis, textos largos y codigo</span
+            >
+            <span class="tool-url">claude.ai</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">
+              <svg viewBox="0 0 40 40" fill="none">
+                <rect width="40" height="40" rx="8" fill="var(--terra)" />
+                <circle
+                  cx="20"
+                  cy="20"
+                  r="8"
+                  stroke="var(--bg)"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <span class="tool-name">ChatGPT</span>
+            <span class="tool-category"
+              >Para imagenes + texto + codigo en una conversacion</span
+            >
+            <span class="tool-url">chatgpt.com</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">
+              <svg viewBox="0 0 40 40" fill="none">
+                <rect width="40" height="40" rx="8" fill="var(--terra)" />
+                <rect
+                  x="12"
+                  y="12"
+                  width="16"
+                  height="16"
+                  rx="2"
+                  stroke="var(--bg)"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <span class="tool-name">Krea.ai</span>
+            <span class="tool-category"
+              >Para renders en tiempo real — dibujas y ves el resultado</span
+            >
+            <span class="tool-url">krea.ai</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">
+              <svg viewBox="0 0 40 40" fill="none">
+                <rect width="40" height="40" rx="8" fill="var(--terra)" />
+                <polygon
+                  points="16,12 28,20 16,28"
+                  stroke="var(--bg)"
+                  stroke-width="2"
+                  fill="none"
+                />
+              </svg>
+            </div>
+            <span class="tool-name">Kling 3.0</span>
+            <span class="tool-category"
+              >Para video — 66 creditos gratis al dia</span
+            >
+            <span class="tool-url">klingai.com</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">
+              <svg viewBox="0 0 40 40" fill="none">
+                <rect width="40" height="40" rx="8" fill="var(--terra)" />
+                <polygon
+                  points="16,12 28,20 16,28"
+                  stroke="var(--bg)"
+                  stroke-width="2"
+                  fill="none"
+                />
+              </svg>
+            </div>
+            <span class="tool-name">Veo 3.1</span>
+            <span class="tool-category"
+              >Para video fotorrealista con audio automatico</span
+            >
+            <span class="tool-url">via Gemini</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">
+              <svg viewBox="0 0 40 40" fill="none">
+                <rect width="40" height="40" rx="8" fill="var(--terra)" />
+                <path
+                  d="M14 26L20 14L26 26"
+                  stroke="var(--bg)"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <span class="tool-name">Gamma</span>
+            <span class="tool-category"
+              >Para presentaciones — texto a slides en 60 segundos</span
+            >
+            <span class="tool-url">gamma.app</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">
+              <svg viewBox="0 0 40 40" fill="none">
+                <rect width="40" height="40" rx="8" fill="var(--terra)" />
+                <path
+                  d="M14 16h12M14 20h8M14 24h10"
+                  stroke="var(--bg)"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <span class="tool-name">NotebookLM</span>
+            <span class="tool-category"
+              >Para investigar — sube docs y obten un podcast de IA</span
+            >
+            <span class="tool-url">notebooklm.google</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">
+              <svg viewBox="0 0 40 40" fill="none">
+                <rect width="40" height="40" rx="8" fill="var(--terra)" />
+                <rect
+                  x="12"
+                  y="14"
+                  width="16"
+                  height="12"
+                  rx="2"
+                  stroke="var(--bg)"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <span class="tool-name">CapCut</span>
+            <span class="tool-category"
+              >Para editar video — cortes, musica, texto, transiciones</span
+            >
+            <span class="tool-url">capcut.com</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">
+              <svg viewBox="0 0 40 40" fill="none">
+                <rect width="40" height="40" rx="8" fill="var(--terra)" />
+                <path
+                  d="M13 27L20 13L27 27"
+                  stroke="var(--bg)"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <span class="tool-name">v0.dev</span>
+            <span class="tool-category"
+              >Para construir interfaces — describes y aparece</span
+            >
+            <span class="tool-url">v0.app</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">
+              <svg viewBox="0 0 40 40" fill="none">
+                <rect width="40" height="40" rx="8" fill="var(--terra)" />
+                <circle
+                  cx="20"
+                  cy="20"
+                  r="6"
+                  stroke="var(--bg)"
+                  stroke-width="2"
+                />
+                <path
+                  d="M20 14v-2M20 28v-2M14 20h-2M28 20h-2"
+                  stroke="var(--bg)"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <span class="tool-name">Bolt.new</span>
+            <span class="tool-category"
+              >Para apps completas — 1M tokens gratis al mes + hosting</span
+            >
+            <span class="tool-url">bolt.new</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">
+              <svg viewBox="0 0 40 40" fill="none">
+                <rect width="40" height="40" rx="8" fill="var(--terra)" />
+                <path
+                  d="M14 14h12v12H14z"
+                  stroke="var(--bg)"
+                  stroke-width="2"
+                />
+                <path d="M14 20h12" stroke="var(--bg)" stroke-width="2" />
+              </svg>
+            </div>
+            <span class="tool-name">Claude Code</span>
+            <span class="tool-category"
+              >Para construir y deployar cualquier cosa desde la terminal</span
+            >
+            <span class="tool-url">CLI</span>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">
+              <svg viewBox="0 0 40 40" fill="none">
+                <rect width="40" height="40" rx="8" fill="var(--terra)" />
+                <path
+                  d="M12 16h16M12 20h10M12 24h13"
+                  stroke="var(--bg)"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <span class="tool-name">Perplexity</span>
+            <span class="tool-category"
+              >Para investigar con fuentes citadas y verificables</span
+            >
+            <span class="tool-url">perplexity.ai</span>
+          </div>
+        </div>
+        <div class="tools-pipeline">
+          <h3>Tu pipeline completo a $0/mes:</h3>
+          <div class="pipeline-flow">
+            <span class="pipeline-step"
+              >Investigacion <small>Claude + Perplexity</small></span
+            >
+            <span class="pipeline-arrow" aria-hidden="true">&rarr;</span>
+            <span class="pipeline-step"
+              >Imagenes <small>Krea + ChatGPT + Bing</small></span
+            >
+            <span class="pipeline-arrow" aria-hidden="true">&rarr;</span>
+            <span class="pipeline-step"
+              >Video <small>Kling + Veo + CapCut</small></span
+            >
+            <span class="pipeline-arrow" aria-hidden="true">&rarr;</span>
+            <span class="pipeline-step"
+              >Presentacion <small>Gamma + Canva</small></span
+            >
+            <span class="pipeline-arrow" aria-hidden="true">&rarr;</span>
+            <span class="pipeline-step"
+              >Sitio Web <small>Bolt.new + Claude Code</small></span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources -->
+    <section class="section section--dark" id="recursos">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Tu Kit</span>
+          <h2 class="section-title">Tu Kit de Herramientas</h2>
+          <p class="section-subtitle">
+            10 tarjetas de referencia que vas a usar durante y despues del
+            curso. Todo el conocimiento, condensado.
+          </p>
+        </div>
+        <div class="resources-grid">
+          <div class="resource-card" data-resource="glosario">
+            <div class="resource-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <rect
+                  x="4"
+                  y="2"
+                  width="24"
+                  height="28"
+                  rx="3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M10 10h12M10 15h8M10 20h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <span class="resource-number">01</span>
+            <h3>Glosario de 47 Terminos</h3>
+            <p>
+              Cada termino de IA explicado en espanol, con analogias de
+              arquitectura. LLM, token, difusion, temperatura — todo lo que
+              necesitas saber.
+            </p>
+            <button class="resource-toggle" aria-expanded="false">
+              Ver contenido
+            </button>
+            <div class="resource-content">
+              <p>
+                Cubre 7 categorias: La Maquina (que es la IA), La Conversacion
+                (como le hablas), Los Modelos (quien hace que), La Generacion
+                (como crea), El Ecosistema (APIs, precios, agentes), La Etica
+                (sesgo, alucinaciones, derechos), y una tabla de referencia
+                rapida con precios y tamanos de contexto.
+              </p>
+            </div>
+          </div>
+
+          <div class="resource-card" data-resource="costar">
+            <div class="resource-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path
+                  d="M16 4l3 7h7l-5.5 4 2 7L16 18l-6.5 4 2-7L6 11h7z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <span class="resource-number">02</span>
+            <h3>Framework CO-STAR</h3>
+            <p>
+              El framework que transforma prompts vagos en instrucciones
+              precisas. 6 dimensiones: Contexto, Objetivo, Style, Tono,
+              Audiencia, Respuesta.
+            </p>
+            <button class="resource-toggle" aria-expanded="false">
+              Ver contenido
+            </button>
+            <div class="resource-content">
+              <div class="costar-grid">
+                <div class="costar-item">
+                  <strong>C</strong> Contexto — "Que necesita saber la IA?"
+                  Ejemplo: "Soy estudiante de 4o ano, tesis de biblioteca
+                  comunitaria en Chihuahua, terreno 800m2"
+                </div>
+                <div class="costar-item">
+                  <strong>O</strong> Objetivo — "Que resultado necesito?"
+                  Ejemplo: "Desarrollar un programa arquitectonico con areas en
+                  m2"
+                </div>
+                <div class="costar-item">
+                  <strong>S</strong> Style — "Como debe sonar?" Ejemplo: "Como
+                  un documento profesional de programacion arquitectonica"
+                </div>
+                <div class="costar-item">
+                  <strong>T</strong> Tono — "Que emocion transmite?" Ejemplo:
+                  "Formal pero empatico con la comunidad"
+                </div>
+                <div class="costar-item">
+                  <strong>A</strong> Audiencia — "Para quien es?" Ejemplo: "Mi
+                  comite de tesis y stakeholders comunitarios"
+                </div>
+                <div class="costar-item">
+                  <strong>R</strong> Respuesta — "Como lo quiero?" Ejemplo:
+                  "Tabla con m2, lista de principios, constraints en bullets"
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resource-card" data-resource="imagen">
+            <div class="resource-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <rect
+                  x="4"
+                  y="6"
+                  width="24"
+                  height="20"
+                  rx="3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+                <circle
+                  cx="12"
+                  cy="14"
+                  r="3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M4 22l7-5 5 4 4-3 8 6"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <span class="resource-number">03</span>
+            <h3>Prompts de Imagen — 7 Capas</h3>
+            <p>
+              La formula para generar renders arquitectonicos: tipo de toma +
+              sujeto + materiales + iluminacion + contexto + atmosfera +
+              parametros.
+            </p>
+            <button class="resource-toggle" aria-expanded="false">
+              Ver contenido
+            </button>
+            <div class="resource-content">
+              <p>
+                <strong>Formula:</strong> [Tipo de toma] + [Sujeto + Estilo] +
+                [Materiales] + [Iluminacion] + [Contexto] + [Atmosfera] +
+                [Parametros]
+              </p>
+              <p>
+                <strong>Tip clave:</strong> Agrega lente para mas realismo:
+                "shot on Hasselblad, 35mm lens" = estandar de fotografia
+                arquitectonica. "24mm wide-angle" = interiores expansivos.
+                "tilt-shift" = efecto maqueta para aereas.
+              </p>
+            </div>
+          </div>
+
+          <div class="resource-card" data-resource="video">
+            <div class="resource-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <rect
+                  x="4"
+                  y="6"
+                  width="24"
+                  height="20"
+                  rx="3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+                <polygon
+                  points="13,12 22,16 13,20"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  fill="none"
+                />
+              </svg>
+            </div>
+            <span class="resource-number">04</span>
+            <h3>Video Pipeline</h3>
+            <p>
+              De render a video cinematografico: el pipeline completo
+              Image-to-Video con Kling, Veo y CapCut. La regla de oro: motion
+              intensity a 0.3-0.5.
+            </p>
+            <button class="resource-toggle" aria-expanded="false">
+              Ver contenido
+            </button>
+            <div class="resource-content">
+              <p>
+                <strong>Pipeline:</strong> Render &rarr; Video clip (Kling/Veo,
+                4-10 seg) &rarr; Edicion (CapCut) &rarr; Musica &rarr; Narrativa
+              </p>
+              <p>
+                <strong>Regla critica:</strong> La arquitectura es RIGIDA. Solo
+                la camara, la luz y la atmosfera deben moverse. SIEMPRE baja
+                motion intensity a 0.3-0.5 o tus edificios se van a deformar.
+              </p>
+            </div>
+          </div>
+
+          <div class="resource-card" data-resource="presentaciones">
+            <div class="resource-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <rect
+                  x="4"
+                  y="6"
+                  width="24"
+                  height="20"
+                  rx="3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+                <path d="M4 12h24" stroke="currentColor" stroke-width="1.5" />
+                <path
+                  d="M10 18h12M10 22h8"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <span class="resource-number">05</span>
+            <h3>Presentaciones con IA</h3>
+            <p>
+              Estructura de pitch profesional: Hook, Contexto, Concepto, Diseno,
+              Evidencia, Vision. La regla: tus slides son tu telon de fondo, no
+              tu guion.
+            </p>
+            <button class="resource-toggle" aria-expanded="false">
+              Ver contenido
+            </button>
+            <div class="resource-content">
+              <p>
+                <strong>Estructura de 6 partes:</strong> Hook (15 seg) &rarr;
+                Contexto (30-45 seg) &rarr; Concepto (30-45 seg) &rarr; Diseno
+                (60 seg) &rarr; Evidencia (30 seg) &rarr; Vision (15-30 seg)
+              </p>
+              <p>
+                <strong>Regla de oro:</strong> Lo que esta en pantalla NO es lo
+                que dices. Slides = tu telon. Tu voz = la narrativa, la emocion,
+                el argumento.
+              </p>
+            </div>
+          </div>
+
+          <div class="resource-card" data-resource="colaboracion">
+            <div class="resource-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="5"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+                <circle
+                  cx="22"
+                  cy="12"
+                  r="5"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M8 26c0-4 3.6-7 8-7s8 3 8 7"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </div>
+            <span class="resource-number">06</span>
+            <h3>Colaboracion Humano-IA</h3>
+            <p>
+              El framework PAIR: Provide context, Ask specifically, Interrogate
+              output, Refine iteratively. Tu criterio profesional es el
+              firewall.
+            </p>
+            <button class="resource-toggle" aria-expanded="false">
+              Ver contenido
+            </button>
+            <div class="resource-content">
+              <p>
+                <strong>P</strong> — Proporcionar contexto: dale TODA la info
+                del proyecto, sitio, clima, fase, restricciones.
+              </p>
+              <p>
+                <strong>A</strong> — Preguntar especificamente: usa CO-STAR, se
+                preciso.
+              </p>
+              <p>
+                <strong>I</strong> — Interrogar el resultado: lee criticamente,
+                busca errores, sesgos, alucinaciones.
+              </p>
+              <p>
+                <strong>R</strong> — Refinar iterativamente: itera 3-5 veces.
+                NUNCA te quedes con el primer borrador.
+              </p>
+            </div>
+          </div>
+
+          <div class="resource-card" data-resource="herramientas">
+            <div class="resource-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path
+                  d="M6 16l4-10h12l4 10-4 10H10z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+                <circle
+                  cx="16"
+                  cy="16"
+                  r="4"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </div>
+            <span class="resource-number">07</span>
+            <h3>Toolkit Completa</h3>
+            <p>
+              Las 30+ herramientas del curso organizadas por categoria: texto,
+              imagenes, video, presentaciones, 3D, codigo, audio y arquitectura.
+            </p>
+            <button class="resource-toggle" aria-expanded="false">
+              Ver contenido
+            </button>
+            <div class="resource-content">
+              <p>
+                Categorias: Texto/Analisis (Claude, ChatGPT, Gemini, Perplexity,
+                NotebookLM), Imagenes (Bing, ChatGPT, Krea, Ideogram, Leonardo),
+                Video (Kling 3.0, Veo 3.1, Runway, CapCut), Presentaciones
+                (Gamma, Canva, Napkin), 3D (Meshy, Tripo3D, Spline), Codigo (v0,
+                Bolt, Lovable, Claude Code), Audio (ElevenLabs, Suno),
+                Arquitectura (Autodesk Forma, Snaptrude, Maket).
+              </p>
+            </div>
+          </div>
+
+          <div class="resource-card" data-resource="claude-code">
+            <div class="resource-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <rect
+                  x="4"
+                  y="6"
+                  width="24"
+                  height="20"
+                  rx="3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M10 14l4 4-4 4M18 22h6"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <span class="resource-number">08</span>
+            <h3>Claude Code Cheat Sheet</h3>
+            <p>
+              Solo necesitas 4 comandos: pwd, ls, cd y claude. La terminal no da
+              miedo cuando sabes estos 4.
+            </p>
+            <button class="resource-toggle" aria-expanded="false">
+              Ver contenido
+            </button>
+            <div class="resource-content">
+              <p>
+                <strong>pwd</strong> = "Donde estoy?" (como ver tu ubicacion en
+                Google Maps)
+              </p>
+              <p>
+                <strong>ls</strong> = "Que hay aqui?" (como abrir una carpeta en
+                Finder)
+              </p>
+              <p>
+                <strong>cd [carpeta]</strong> = "Ve a esta carpeta" (como hacer
+                doble clic)
+              </p>
+              <p>
+                <strong>claude</strong> = "Inicia Claude Code" (tu socio
+                constructor)
+              </p>
+              <p>Eso es TODO. Claude Code hace el resto.</p>
+            </div>
+          </div>
+
+          <div class="resource-card" data-resource="templates">
+            <div class="resource-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <rect
+                  x="4"
+                  y="4"
+                  width="24"
+                  height="24"
+                  rx="3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M4 12h24M16 12v16"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </div>
+            <span class="resource-number">09</span>
+            <h3>Templates de Arquitectura</h3>
+            <p>
+              4 templates listos para usar: Critico de Diseno, Investigador de
+              Sitio, Programador Arquitectonico y Escritor de Memoria.
+            </p>
+            <button class="resource-toggle" aria-expanded="false">
+              Ver contenido
+            </button>
+            <div class="resource-content">
+              <p>
+                Cada template es un prompt completo que copias, llenas con tu
+                info, y obtienes respuestas de nivel profesional. Incluyen: tipo
+                de edificio, ubicacion, clima, area, fase, concepto y las
+                preguntas exactas para obtener critica constructiva real.
+              </p>
+            </div>
+          </div>
+
+          <div class="resource-card" data-resource="mapa">
+            <div class="resource-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path
+                  d="M6 8l8 3 8-3 4 2v18l-4-2-8 3-8-3-4 2V10z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M14 11v18M22 8v18"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </div>
+            <span class="resource-number">10</span>
+            <h3>Mapa del Curso</h3>
+            <p>
+              Vision completa de los 10 dias: tema, entregable y progresion de
+              cada dia. Tu ruta de navegacion.
+            </p>
+            <button class="resource-toggle" aria-expanded="false">
+              Ver contenido
+            </button>
+            <div class="resource-content">
+              <p>
+                Dia 1: WOW (3 renders + manifiesto) &rarr; Dia 2: ENTENDER
+                (comparativo + memo) &rarr; Dia 3: COMUNICAR (10 versiones +
+                report) &rarr; Dia 4: VER (mood board + atmosphere board) &rarr;
+                Dia 5: MOVER (clip 30s + video 60s) &rarr; Dia 6: PRESENTAR
+                (pitch 10 slides) &rarr; Dia 7: JUZGAR (analisis critico) &rarr;
+                Dia 8: CONSTRUIR (app web funcional) &rarr; Dia 9: PODER
+                (portafolio con Claude Code) &rarr; Dia 10: ENTREGA
+                (presentacion integrada)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Glossary -->
+    <section class="section" id="glosario">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Glosario</span>
+          <h2 class="section-title">Los terminos que vas a dominar</h2>
+          <p class="section-subtitle">
+            Estos son los conceptos clave. Cuando termines el curso, vas a
+            hablar de IA con confianza.
+          </p>
+        </div>
+        <div class="glossary-grid">
+          <div class="glossary-card">
+            <h3 class="glossary-term">LLM</h3>
+            <span class="glossary-english">Large Language Model</span>
+            <p class="glossary-def">
+              Red neuronal entrenada con textos masivos para entender y generar
+              lenguaje humano. Es el cerebro detras de ChatGPT y Claude.
+            </p>
+            <p class="glossary-analogy">
+              <strong>Analogia:</strong> Imagina un arquitecto que ha leido
+              TODOS los libros de arquitectura del mundo. Puede hablar de
+              cualquier tema, pero nunca ha construido un edificio real.
+            </p>
+          </div>
+
+          <div class="glossary-card">
+            <h3 class="glossary-term">Token</h3>
+            <span class="glossary-english">Token</span>
+            <p class="glossary-def">
+              Unidad minima de texto que procesa la IA — aproximadamente 3-4
+              caracteres. El espanol usa ~60% mas tokens que el ingles.
+            </p>
+            <p class="glossary-analogy">
+              <strong>Analogia:</strong> Como los ladrillos de un muro. La IA no
+              lee palabras completas — lee pedacitos y los ensambla.
+            </p>
+          </div>
+
+          <div class="glossary-card">
+            <h3 class="glossary-term">Context Window</h3>
+            <span class="glossary-english">Ventana de Contexto</span>
+            <p class="glossary-def">
+              Cantidad maxima de tokens que la IA puede "ver" a la vez. Claude
+              Opus 4.6: 1,000,000 tokens (~1,500 paginas).
+            </p>
+            <p class="glossary-analogy">
+              <strong>Analogia:</strong> El tamano del escritorio de trabajo.
+              Mas grande = mas documentos puedes tener abiertos al mismo tiempo.
+            </p>
+          </div>
+
+          <div class="glossary-card">
+            <h3 class="glossary-term">Prompt</h3>
+            <span class="glossary-english">Prompt</span>
+            <p class="glossary-def">
+              Todo lo que escribes y envias a la IA — tu instruccion completa.
+              La calidad de tu prompt determina la calidad de la respuesta.
+            </p>
+            <p class="glossary-analogy">
+              <strong>Analogia:</strong> Como el brief que le das a un cliente.
+              Si el brief es vago, el resultado es vago. Si es preciso, el
+              resultado es preciso.
+            </p>
+          </div>
+
+          <div class="glossary-card">
+            <h3 class="glossary-term">Alucinacion</h3>
+            <span class="glossary-english">Hallucination</span>
+            <p class="glossary-def">
+              Cuando la IA dice algo falso con total confianza. NO es un bug —
+              es una caracteristica de como funcionan los LLMs. Modelos top:
+              ~90-95% precision general.
+            </p>
+            <p class="glossary-analogy">
+              <strong>Analogia:</strong> Como cuando un companero te da un dato
+              con total seguridad pero se lo invento. Suena real, pero hay que
+              verificar.
+            </p>
+          </div>
+
+          <div class="glossary-card">
+            <h3 class="glossary-term">Difusion</h3>
+            <span class="glossary-english">Diffusion</span>
+            <p class="glossary-def">
+              Tecnica de generacion de imagenes: de ruido puro a imagen
+              coherente. Es como la IA "ve" y "dibuja".
+            </p>
+            <p class="glossary-analogy">
+              <strong>Analogia:</strong> Imagina que empiezas con una hoja llena
+              de estatica de television y poco a poco, paso a paso, va
+              apareciendo una foto. Asi funciona.
+            </p>
+          </div>
+
+          <div class="glossary-card">
+            <h3 class="glossary-term">Temperature</h3>
+            <span class="glossary-english">Temperatura</span>
+            <p class="glossary-def">
+              Control de aleatoriedad de la IA. 0 = predecible y seguro. 1 =
+              creativo e inesperado. 2 = caotico.
+            </p>
+            <p class="glossary-analogy">
+              <strong>Analogia:</strong> Como el volumen de "locura creativa".
+              Bajo para calculos y datos, alto para brainstorming y exploracion.
+            </p>
+          </div>
+
+          <div class="glossary-card">
+            <h3 class="glossary-term">CO-STAR</h3>
+            <span class="glossary-english">Framework</span>
+            <p class="glossary-def">
+              El framework para escribir prompts efectivos: Contexto, Objetivo,
+              Style, Tono, Audiencia, Respuesta. Tu herramienta #1 del curso.
+            </p>
+            <p class="glossary-analogy">
+              <strong>Analogia:</strong> Como llenar los datos de un proyecto
+              antes de disenar: sitio, programa, cliente, restricciones, formato
+              de entrega.
+            </p>
+          </div>
+
+          <div class="glossary-card">
+            <h3 class="glossary-term">Vibe Coding</h3>
+            <span class="glossary-english">Vibe Coding</span>
+            <p class="glossary-def">
+              Describes lo que quieres en lenguaje natural y la IA escribe el
+              codigo. No necesitas saber programar — solo saber pedir.
+            </p>
+            <p class="glossary-analogy">
+              <strong>Analogia:</strong> Como explicarle a un maestro de obra lo
+              que quieres y el lo construye. Tu pones la vision, la IA pone la
+              ejecucion tecnica.
+            </p>
+          </div>
+
+          <div class="glossary-card">
+            <h3 class="glossary-term">Agent</h3>
+            <span class="glossary-english">Agente</span>
+            <p class="glossary-def">
+              IA que toma acciones autonomas, no solo responde preguntas. Puede
+              crear archivos, ejecutar codigo, navegar la web.
+            </p>
+            <p class="glossary-analogy">
+              <strong>Analogia:</strong> La diferencia entre un asistente que
+              contesta el telefono y uno que ademas agenda citas, manda correos
+              y organiza tu oficina.
+            </p>
+          </div>
+
+          <div class="glossary-card">
+            <h3 class="glossary-term">MCP</h3>
+            <span class="glossary-english">Model Context Protocol</span>
+            <p class="glossary-def">
+              Estandar para conectar IA a herramientas externas. Permite que la
+              IA use bases de datos, APIs y servicios directamente.
+            </p>
+            <p class="glossary-analogy">
+              <strong>Analogia:</strong> Como el USB para la IA. Un conector
+              universal que le permite hablar con cualquier herramienta.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Progression -->
+    <section class="section section--dark" id="progresion">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Tu Progresion</span>
+          <h2 class="section-title">Asi creces en 10 dias</h2>
+          <p class="section-subtitle">
+            Cada dia construye sobre el anterior. La complejidad sube, tu
+            confianza tambien.
+          </p>
+        </div>
+        <div class="progression">
+          <div class="progression-track">
+            <div class="progression-line" aria-hidden="true"></div>
+            <div class="progression-step" data-step="1">
+              <div class="progression-dot"></div>
+              <div class="progression-content">
+                <span class="progression-day">Dia 1</span>
+                <span class="progression-word">WOW</span>
+              </div>
+            </div>
+            <div class="progression-step" data-step="2">
+              <div class="progression-dot"></div>
+              <div class="progression-content">
+                <span class="progression-day">Dia 2</span>
+                <span class="progression-word">ENTENDER</span>
+              </div>
+            </div>
+            <div class="progression-step" data-step="3">
+              <div class="progression-dot"></div>
+              <div class="progression-content">
+                <span class="progression-day">Dia 3</span>
+                <span class="progression-word">COMUNICAR</span>
+              </div>
+            </div>
+            <div class="progression-step" data-step="4">
+              <div class="progression-dot"></div>
+              <div class="progression-content">
+                <span class="progression-day">Dia 4</span>
+                <span class="progression-word">VER</span>
+              </div>
+            </div>
+            <div class="progression-step" data-step="5">
+              <div class="progression-dot"></div>
+              <div class="progression-content">
+                <span class="progression-day">Dia 5</span>
+                <span class="progression-word">MOVER</span>
+              </div>
+            </div>
+            <div class="progression-step" data-step="6">
+              <div class="progression-dot"></div>
+              <div class="progression-content">
+                <span class="progression-day">Dia 6</span>
+                <span class="progression-word">PRESENTAR</span>
+              </div>
+            </div>
+            <div class="progression-step" data-step="7">
+              <div class="progression-dot"></div>
+              <div class="progression-content">
+                <span class="progression-day">Dia 7</span>
+                <span class="progression-word">JUZGAR</span>
+              </div>
+            </div>
+            <div class="progression-step" data-step="8">
+              <div class="progression-dot"></div>
+              <div class="progression-content">
+                <span class="progression-day">Dia 8</span>
+                <span class="progression-word">CONSTRUIR</span>
+              </div>
+            </div>
+            <div class="progression-step" data-step="9">
+              <div class="progression-dot"></div>
+              <div class="progression-content">
+                <span class="progression-day">Dia 9</span>
+                <span class="progression-word">PODER</span>
+              </div>
+            </div>
+            <div class="progression-step" data-step="10">
+              <div class="progression-dot"></div>
+              <div class="progression-content">
+                <span class="progression-day">Dia 10</span>
+                <span class="progression-word">ENTREGA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Evaluation -->
+    <section class="section" id="evaluacion">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Evaluacion</span>
+          <h2 class="section-title">
+            No se evalua que tanto sabes al final,<br /><em
+              >sino cuanto creciste desde el Dia 1.</em
+            >
+          </h2>
+          <p class="section-subtitle">
+            Lo que importa es tu progresion. Si el Dia 1 no sabias que era un
+            prompt y el Dia 10 construyes un portafolio web, eso vale mas que
+            cualquier examen.
+          </p>
+        </div>
+        <div class="evaluation-grid">
+          <div class="eval-criterion">
+            <div class="eval-bar">
+              <div class="eval-fill" style="--fill: 25%"></div>
+            </div>
+            <div class="eval-info">
+              <span class="eval-weight">25%</span>
+              <h4>Calidad de Diseno</h4>
+              <p>
+                Que tan bien compones, que tan coherente es tu estetica, que tan
+                intencionales son tus decisiones visuales
+              </p>
+            </div>
+          </div>
+          <div class="eval-criterion">
+            <div class="eval-bar">
+              <div class="eval-fill" style="--fill: 25%"></div>
+            </div>
+            <div class="eval-info">
+              <span class="eval-weight">25%</span>
+              <h4>Integracion de IA</h4>
+              <p>
+                Que tan bien usas las herramientas de IA en tu flujo de trabajo
+                — no que las uses, sino que las uses con intencion
+              </p>
+            </div>
+          </div>
+          <div class="eval-criterion">
+            <div class="eval-bar">
+              <div class="eval-fill" style="--fill: 20%"></div>
+            </div>
+            <div class="eval-info">
+              <span class="eval-weight">20%</span>
+              <h4>Comunicacion</h4>
+              <p>
+                Que tan claro presentas tu proyecto, que tan bien cuentas la
+                historia, que tan convincente es tu pitch
+              </p>
+            </div>
+          </div>
+          <div class="eval-criterion">
+            <div class="eval-bar">
+              <div class="eval-fill" style="--fill: 15%"></div>
+            </div>
+            <div class="eval-info">
+              <span class="eval-weight">15%</span>
+              <h4>Calidad de Artefactos</h4>
+              <p>
+                Que tan terminados y profesionales se ven tus renders, videos,
+                presentaciones y herramientas
+              </p>
+            </div>
+          </div>
+          <div class="eval-criterion">
+            <div class="eval-bar">
+              <div class="eval-fill" style="--fill: 15%"></div>
+            </div>
+            <div class="eval-info">
+              <span class="eval-weight">15%</span>
+              <h4>Reflexion Critica</h4>
+              <p>
+                Tu capacidad de cuestionar lo que la IA genera, identificar
+                errores y mejorar los resultados con tu criterio
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <span class="nav-logo-mark">IN</span>
+              <span class="nav-logo-text">Isthmus Norte</span>
+            </div>
+            <p class="footer-tagline">
+              Tu carrera de arquitectura esta a punto de cambiar.
+            </p>
+          </div>
+          <div class="footer-info">
+            <div class="footer-col">
+              <h4>Ubicacion</h4>
+              <p>Chihuahua, Mexico</p>
+            </div>
+            <div class="footer-col">
+              <h4>Formato</h4>
+              <p>10 dias &middot; 50 horas<br />8:00am &ndash; 1:00pm</p>
+            </div>
+            <div class="footer-col">
+              <h4>Contacto</h4>
+              <p>
+                <a href="mailto:info@isthmusnorte.mx">info@isthmusnorte.mx</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Isthmus Norte. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
