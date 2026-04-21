@@ -174,7 +174,7 @@ const slides = [
     </div>
   `,
   },
-  // Slide 7.5b — Resultado del Día 1 · EJERCICIO (PDF inline)
+  // Slide 7.5b — Resultado del Día 1 · EJERCICIO (12 páginas renderizadas inline)
   {
     day: 1,
     type: "demo",
@@ -182,9 +182,23 @@ const slides = [
     content: `
     <span class="demo-badge">RESULTADO</span>
     <h2 class="demo-title">Día 1 — El ejercicio</h2>
-    <div class="result-assets" style="margin-top:16px;">
-      <iframe src="Dia1ejerciciohecho.pdf#view=FitH&toolbar=1" style="width:100%;height:72vh;border:1px solid rgba(255,255,255,0.12);border-radius:8px;background:#111;" title="Ejercicio Día 1"></iframe>
-      <a href="Dia1ejerciciohecho.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;margin-top:12px;color:var(--text);text-decoration:underline;font-size:18px;">📄 Abrir en pestaña nueva</a>
+    <p class="demo-description" style="font-size:18px;margin-bottom:12px;">12 páginas · scroll para ver todo</p>
+    <div class="result-assets" style="margin-top:8px;max-width:900px;">
+      <div style="max-height:70vh;overflow-y:auto;overflow-x:hidden;border:1px solid rgba(255,255,255,0.12);border-radius:8px;background:#0b0b0b;padding:16px;display:flex;flex-direction:column;gap:14px;scrollbar-color:rgba(255,255,255,0.25) transparent;">
+        <img src="dia1-pdf/page-01.jpg" alt="Página 1" loading="lazy" style="width:100%;border-radius:4px;display:block;">
+        <img src="dia1-pdf/page-02.jpg" alt="Página 2" loading="lazy" style="width:100%;border-radius:4px;display:block;">
+        <img src="dia1-pdf/page-03.jpg" alt="Página 3" loading="lazy" style="width:100%;border-radius:4px;display:block;">
+        <img src="dia1-pdf/page-04.jpg" alt="Página 4" loading="lazy" style="width:100%;border-radius:4px;display:block;">
+        <img src="dia1-pdf/page-05.jpg" alt="Página 5" loading="lazy" style="width:100%;border-radius:4px;display:block;">
+        <img src="dia1-pdf/page-06.jpg" alt="Página 6" loading="lazy" style="width:100%;border-radius:4px;display:block;">
+        <img src="dia1-pdf/page-07.jpg" alt="Página 7" loading="lazy" style="width:100%;border-radius:4px;display:block;">
+        <img src="dia1-pdf/page-08.jpg" alt="Página 8" loading="lazy" style="width:100%;border-radius:4px;display:block;">
+        <img src="dia1-pdf/page-09.jpg" alt="Página 9" loading="lazy" style="width:100%;border-radius:4px;display:block;">
+        <img src="dia1-pdf/page-10.jpg" alt="Página 10" loading="lazy" style="width:100%;border-radius:4px;display:block;">
+        <img src="dia1-pdf/page-11.jpg" alt="Página 11" loading="lazy" style="width:100%;border-radius:4px;display:block;">
+        <img src="dia1-pdf/page-12.jpg" alt="Página 12" loading="lazy" style="width:100%;border-radius:4px;display:block;">
+      </div>
+      <a href="Dia1ejerciciohecho.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;margin-top:12px;color:var(--text);text-decoration:underline;font-size:18px;">📄 Descargar PDF original</a>
     </div>
   `,
   },
