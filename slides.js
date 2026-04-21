@@ -159,6 +159,30 @@ const slides = [
     </div>
   `,
   },
+  // Slide 7.5 — Resultado del Día 1 (video + ejercicio entregado)
+  {
+    day: 1,
+    type: "demo",
+    timing: "8:00-8:45",
+    content: `
+    <span class="demo-badge">RESULTADO</span>
+    <h2 class="demo-title">Día 1 — Hecho</h2>
+    <p class="demo-description">El video y el ejercicio entregado de un Día 1 real.</p>
+    <div class="result-assets" style="display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:32px;align-items:start;">
+      <div style="display:flex;flex-direction:column;gap:12px;">
+        <div style="font-family:var(--font-mono);font-size:14px;letter-spacing:2px;text-transform:uppercase;color:var(--text-dim);">Video</div>
+        <div style="position:relative;width:100%;padding-top:56.25%;border-radius:8px;overflow:hidden;background:#000;">
+          <iframe src="https://www.youtube.com/embed/aAkDXD_hsDs?rel=0&modestbranding=1" title="Día 1 — Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px;">
+        <div style="font-family:var(--font-mono);font-size:14px;letter-spacing:2px;text-transform:uppercase;color:var(--text-dim);">Ejercicio entregado</div>
+        <iframe src="Dia1ejerciciohecho.pdf#toolbar=1" style="width:100%;height:420px;border:1px solid rgba(255,255,255,0.12);border-radius:8px;background:#111;" title="Ejercicio Día 1"></iframe>
+        <a href="Dia1ejerciciohecho.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;color:var(--text);text-decoration:underline;font-size:18px;">📄 Abrir PDF en pestaña nueva</a>
+      </div>
+    </div>
+  `,
+  },
   // Slide 8
   {
     day: 1,
@@ -3200,7 +3224,11 @@ document.addEventListener("keydown", (e) => {
 // Click/tap to advance
 document.getElementById("presentation").addEventListener("click", (e) => {
   // Don't advance if clicking timer or interactive element
-  if (e.target.closest(".slide-timer, .break-timer, .meta-tag, a, button"))
+  if (
+    e.target.closest(
+      ".slide-timer, .break-timer, .meta-tag, a, button, video, iframe, .result-assets",
+    )
+  )
     return;
   nextSlide();
 });
